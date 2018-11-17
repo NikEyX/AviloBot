@@ -1,0 +1,7 @@
+Bot/bin/Debug/
+Bot/obj/
+.vs/
+.idea/
+*.log
+*.json
+Bot/bin/Release/Bot.exe.config

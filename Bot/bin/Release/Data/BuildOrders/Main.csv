@@ -1,0 +1,36 @@
+Once,Enable,AutoOrbital
+Once,Enable,AutoExpand
+Once,Train,Worker
+Self.SupplyDepot.Count < 1,Construct,SupplyDepot
+Once,Train,Worker
+Once,Train,Worker
+Once,Scout,Worker
+Self.Barracks.Count < 1,Construct,Barracks
+Self.Refinery.Count < 1,Construct,Refinery
+Once,Train,Worker
+Once,Enable,AutoWorkers
+Once,Train,Reaper
+
+Require,Construct,CommandCenter
+Once,Train,Marine
+Self.Factory.Count < 1,Construct,Factory
+Self.SupplyDepot.Count < 2,Construct,SupplyDepot
+Self.Refinery.Count < 2,Construct,Refinery
+Once,Enable,AutoSupplyDepots
+Self.BarracksReactor.Count < 1,Construct,BarracksReactor
+Once,Train,Hellion
+Once,Enable,AutoArmy
+Self.FactoryTechlab.Count < 1,Construct,FactoryTechLab
+Once,Train,SiegeTank
+Self.Factory.Count < 2,Construct,Factory
+
+Require,Construct,CommandCenter
+Once,Enable,CautiousMules
+Once,Enable,AutoRefineries
+Self.FactoryReactor.Count < 1,Construct,FactoryReactor
+Self.Armory.Count < 1,Construct,Armory
+Once,Enable,AutoUpgrades
+Self.EngineeringBay.Count < 1,Construct,EngineeringBay
+Once,Enable,AutoStaticDefense
+Self.Factory.Count < 3,Construct,Factory
+Once,Enable,AutoPilot

@@ -1,0 +1,54 @@
+Once,Enable,AutoWorkers
+Once,Enable,AutoOrbital
+Once,Enable,AutoExpand
+Self.SupplyDepot.Count < 1,Construct,SupplyDepot
+Once,Scout,Worker
+Self.Refinery.Count < 1,Construct,Refinery
+Self.Barracks.Count < 1,Construct,Barracks
+Self.Refinery.Count < 2,Construct,Refinery
+Self.Factory.Count < 1,Construct,Factory
+Once,Train,Reaper
+Self.SupplyDepot.Count < 2,Construct,SupplyDepot
+Once,Train,Marine
+Once,Enable,AutoSupplyDepots
+Self.BarracksReactor.Count < 1,Construct,BarracksReactor
+Once,Train,Hellion
+Self.Starport.Count < 1,Construct,Starport
+Self.Starport.Count < 2,Construct,Starport
+Self.FactoryTechlab.Count < 1,Construct,FactoryTechLab
+Once,Train,Marine
+Once,Train,Marine
+Self.StarportTechlab.Count < 1,Construct,StarportTechlab
+Self.StarportTechlab.Count < 2,Construct,StarportTechlab
+Self.StarportTechlab.Count >= 1,Research,BansheeCloak
+
+Once,Train,Banshee
+Once,Train,Banshee
+
+Once,Enable,AutoArmy
+
+Once,Train,Banshee
+Once,Train,Banshee
+Once,Train,Banshee
+
+Once,Train,SiegeTank
+Once,Train,Marine
+Once,Train,Marine
+
+Once,Enable,AutoRefineries
+Once,Enable,AutoUpgrades
+
+Self.Factory.Count < 2,Construct,Factory
+Once,Train,Marine
+Once,Train,Marine
+Self.Factory.Count < 3,Construct,Factory
+
+Once,Enable,CautiousMules
+Once,Enable,AutoRefineries
+Self.FactoryReactor.Count < 1,Construct,FactoryReactor
+Self.FactoryTechlab.Count < 2,Construct,FactoryTechLab
+Self.Armory.Count < 1,Construct,Armory
+Once,Enable,AutoUpgrades
+Self.EngineeringBay.Count < 1,Construct,EngineeringBay
+Once,Enable,AutoStaticDefense
+Once,Enable,AutoPilot

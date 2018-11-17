@@ -1,0 +1,47 @@
+Once,Enable,AutoWorkers
+Once,Enable,AutoOrbital
+Self.SupplyDepot.Count < 1,Construct,SupplyDepot
+Once,Scout,Worker
+Self.Refinery.Count < 1,Construct,Refinery
+Self.Barracks.Count < 1,Construct,Barracks
+Self.Refinery.Count < 2,Construct,Refinery
+Self.Factory.Count < 1,Construct,Factory
+Once,Train,Reaper
+Self.SupplyDepot.Count < 2,Construct,SupplyDepot
+Once,Train,Marine
+Once,Enable,AutoSupplyDepots
+Self.BarracksReactor.Count < 1,Construct,BarracksReactor
+Self.Armory.Count < 1,Construct,Armory
+Once,Enable,AutoUpgrades
+Self.FactoryReactor.Count < 1,Construct,FactoryReactor
+
+Once,Enable,AutoArmy
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Cyclone
+Once,Train,Cyclone
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Cyclone
+Once,Train,Cyclone
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Cyclone
+Once,Train,Cyclone
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Marine
+Once,Train,Cyclone
+Once,Train,Cyclone
+Once,Train,Cyclone
+Once,Train,Cyclone
+
+Once,Enable,AutoRefineries
+
+Once,Enable,AutoExpand
+Once,Enable,AutoPilot
